@@ -3,8 +3,20 @@ namespace EncapsulateVariation
 {
     internal class Program
     {
+        // in this lecture, we will learn how to encapsulate the variation in the code.
+        // we have a class Pizza which has three types of pizza Margherita, Capricciosa and Calzone.
+        // we have a method OrderPizza(commented) which is responsible for creating the object of the pizza type and also preparing, baking and cutting the pizza.
+        // this method is not a good practice because it is doing more than one thing. It is creating the object and also preparing, baking and cutting the pizza.
+        // We should separate the creation of the object and the preparation, baking and cutting of the pizza.
+        // because the creation of the Pizza will be changed frequently because of adding new types of pizza. So, we have separated the creation of the object but the preparation, baking and cutting of the pizza will remain the same.
+        // so in case of any change in the creation of the object, we will change only the CreatePizza method and the rest of the code will remain the same.
+        // so we will create a new method CreatePizza which will be responsible for creating the object of the pizza type.
+        // and we will call this method in the OrderPizza method to create the object of the pizza type.
+        // so we have separated the creation of the object and the preparation, baking and cutting of the pizza.
         static void Main(string[] args)
         {
+            Pizza pizza = Pizza.OrderPizza(PizzaConstants.Capricciosa);
+            Console.WriteLine(pizza);
         }
     }
     public class Pizza 
@@ -88,6 +100,10 @@ namespace EncapsulateVariation
             Console.Write("Cutting .....");
             Thread.Sleep(500);
             Console.WriteLine("Cut");
+        }
+        public override string ToString()
+        {
+            return $"{Title} - {Price}";
         }
     }
     public class Margherita : Pizza
