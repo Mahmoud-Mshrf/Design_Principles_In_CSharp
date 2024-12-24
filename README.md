@@ -1,1 +1,1 @@
-# SOLID_Principles
+# Design Principles In C#
