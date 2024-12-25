@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EncapsulateVariation", "Enc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositionOverInheritance", "CompositionOverInheritance\CompositionOverInheritance.csproj", "{875CAF59-BCFA-40ED-A509-7AC77CD75F95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositionOverInheritanceApplied", "CompositionOverInheritanceApplied\CompositionOverInheritanceApplied.csproj", "{B16BF9E5-FA8F-47DE-BAE5-A3BB62CF4DE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositionOverInheritanceApplied", "CompositionOverInheritanceApplied\CompositionOverInheritanceApplied.csproj", "{B16BF9E5-FA8F-47DE-BAE5-A3BB62CF4DE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TightlyCoupling", "TightlyCoupling\TightlyCoupling.csproj", "{3D0AE566-FAAC-46FE-9C7F-D4C68A0F1853}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{B16BF9E5-FA8F-47DE-BAE5-A3BB62CF4DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B16BF9E5-FA8F-47DE-BAE5-A3BB62CF4DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B16BF9E5-FA8F-47DE-BAE5-A3BB62CF4DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D0AE566-FAAC-46FE-9C7F-D4C68A0F1853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0AE566-FAAC-46FE-9C7F-D4C68A0F1853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D0AE566-FAAC-46FE-9C7F-D4C68A0F1853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D0AE566-FAAC-46FE-9C7F-D4C68A0F1853}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
